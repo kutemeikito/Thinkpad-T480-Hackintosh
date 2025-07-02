@@ -1,6 +1,6 @@
 # Lenovo ThinkPad T480 - OpenCore Configuation
 
-![T480](https://i.postimg.cc/NFvGZr6v/Screenshot-2025-07-03-at-00-25-59.png)
+![T480](https://raw.githubusercontent.com/kutemeikito/kutemeikito/refs/heads/master/assets/Screenshot%202025-07-03%20at%2000.42.01.png)
 
 
 # ⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️
