@@ -1,6 +1,6 @@
 # Lenovo ThinkPad T480 - OpenCore Configuation
 
-![Screenshot 2568-03-16 at 13 29 36](https://github.com/user-attachments/assets/f11083f6-32b5-41dd-a1d4-571789b92fce)
+![T480](https://i.postimg.cc/NFvGZr6v/Screenshot-2025-07-03-at-00-25-59.png)
 
 
 # ⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️
@@ -13,7 +13,8 @@ This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any ha
 > The ACPI patches and the style of this README are from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh).
 
 > Thanks MultimediaLucario for his works on hackintosh EFI [Lenovo-ThinkPad-T480](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480).
-> Thanks lolipuru for dual boot open-core issue [t480-oc](https://github.com/valnoxy/t480-oc).
+
+> Thanks lolipuru for dual boot open-core issue [Thinkpad-T480-Opencore](https://github.com/valnoxy/t480-oc).
 
 <details>
 <summary><strong>💻 My Hardware</strong></summary>
