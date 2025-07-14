@@ -111,36 +111,6 @@
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>change Method(GPRW,2,N) to XPRW</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>R1BSVwI=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WFBSVwI=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
                     <string>TB3:_INI with XINI for RP09</string>
                     <key>Count</key>
                     <integer>1</integer>
@@ -326,26 +296,6 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>PciRoot(0x0)/Pci(0x1C, 0x6)/Pci(0x0,0x0)</key>
-                <dict>
-                    <key>IOName</key>
-                    <string>pci14e4,43a0</string>
-                    <key>device_type</key>
-                    <string>Network Controller</string>
-                    <key>model</key>
-                    <string>BCM4360 802.11ac Wireless Network Adapter
-BCM4360 802.11ac Wireless Network AdapterBCM4360 802.11ac Wireless Network Adapter
-BCM4360 802.11ac Wireless Network Adapter
-BCM4360 802.11ac Wireless Network Adapter
-BCM4360 802.11ac Wireless Network Adapter
-BCM4360 802.11ac Wireless Network Adapter
-BCM4360 802.11ac Wireless Network Adapter
-BCM4360 802.11ac Wireless Network Adapter</string>
-                    <key>name</key>
-                    <string>pci14e4,43a0</string>
-                    <key>pci-aspm-default</key>
-                    <integer>0</integer>
-                </dict>
                 <key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
@@ -418,7 +368,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AAAWWQ==</data>
+                    <data>AADAhw==</data>
                     <key>complete-modeset</key>
                     <data>AQAAAA==</data>
                     <key>complete-modeset-framebuffers</key>
@@ -464,7 +414,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.0 | Lilu.kext</string>
+                    <string>V1.7.2 | Lilu.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -482,7 +432,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.6</string>
+                    <string>V1.3.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -572,7 +522,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>NVMeFix.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.2 | NVMeFix.kext</string>
+                    <string>V1.1.4 | NVMeFix.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -590,7 +540,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.5 | RestrictEvents.kext</string>
+                    <string>V1.1.7 | RestrictEvents.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -660,31 +610,13 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1.6</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooInput</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
+                    <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
                     <key>Comment</key>
                     <string>V2.3.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooPS2Keyboard</string>
+                    <string>Contents/MacOS/VoodooPS2Trackpad</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -714,13 +646,31 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
+                    <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
                     <key>Comment</key>
                     <string>V2.3.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooPS2Trackpad</string>
+                    <string>Contents/MacOS/VoodooPS2Keyboard</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.6</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/VoodooInput</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -750,13 +700,13 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VoodooRMI.kext/Contents/PlugIns/RMII2C.kext</string>
+                    <string>VoodooRMI.kext/Contents/PlugIns/VoodooInput.kext</string>
                     <key>Comment</key>
-                    <string>V1 | RMII2C.kext</string>
+                    <string>V1.1.4</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/RMII2C</string>
+                    <string>Contents/MacOS/VoodooInput</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -786,13 +736,13 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VoodooRMI.kext/Contents/PlugIns/VoodooInput.kext</string>
+                    <string>VoodooRMI.kext/Contents/PlugIns/RMII2C.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.4</string>
+                    <string>V1 | RMII2C.kext</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooInput</string>
+                    <string>Contents/MacOS/RMII2C</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -824,7 +774,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.9 | WhateverGreen.kext</string>
+                    <string>V1.7.1 | WhateverGreen.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -878,7 +828,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.9.4 | AppleALC.kext</string>
+                    <string>V1.9.6 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -932,7 +882,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>HibernationFixup.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.3 | HibernationFixup.kext</string>
+                    <string>V1.5.5 | HibernationFixup.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -986,7 +936,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.6 | SMCBatteryManager.kext</string>
+                    <string>V1.3.7 | SMCBatteryManager.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1004,7 +954,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>SMCLightSensor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.6 | SMCLightSensor.kext</string>
+                    <string>V1.3.7 | SMCLightSensor.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1022,7 +972,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.6 | SMCProcessor.kext</string>
+                    <string>V1.3.7 | SMCProcessor.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1040,7 +990,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.6 | SMCSuperIO.kext</string>
+                    <string>V1.3.7 | SMCSuperIO.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1074,7 +1024,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AirportItlwm-Ventura.kext</string>
+                    <string>AirportItlwm-Sequoia.kext</string>
                     <key>Comment</key>
                     <string>V2.3.0</string>
                     <key>Enabled</key>
@@ -1205,9 +1155,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
         <key>Misc</key>
         <dict>
             <key>BlessOverride</key>
-            <array>
-                <string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
-            </array>
+            <array/>
             <key>Boot</key>
             <dict>
                 <key>ConsoleAttributes</key>
@@ -1229,7 +1177,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>velickovicdj/EnterTwilight</string>
+                <string>chris1111\FlatMonterey</string>
                 <key>PollAppleHotKeys</key>
                 <false/>
                 <key>ShowPicker</key>
@@ -1304,7 +1252,7 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                     <key>FifoControl</key>
                     <integer>7</integer>
                     <key>LineControl</key>
-                    <integer>7</integer>
+                    <integer>3</integer>
                     <key>PciDeviceInfo</key>
                     <data>/w==</data>
                     <key>RegisterAccessWidth</key>
@@ -1450,15 +1398,15 @@ BCM4360 802.11ac Wireless Network Adapter</string>
             <key>Generic</key>
             <dict>
                 <key>AdviseFeatures</key>
-                <false/>
+                <true/>
                 <key>MLB</key>
-                <string>C02844902QXJH4RUE</string>
+                <string>C02003303QXJH4RJC</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
-                <integer>1793</integer>
+                <integer>0</integer>
                 <key>ROM</key>
-                <data>AAAAAAAA</data>
+                <data>HJFIEujm</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1466,9 +1414,9 @@ BCM4360 802.11ac Wireless Network Adapter</string>
                 <key>SystemProductName</key>
                 <string>MacBookPro15,2</string>
                 <key>SystemSerialNumber</key>
-                <string>C02XMGZXJHCC</string>
+                <string>C02C4ZZUJHCC</string>
                 <key>SystemUUID</key>
-                <string>62C7BDDD-E107-4791-BBE2-C7022E8321A8</string>
+                <string>DD112E13-B736-4101-978F-353F50615715</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
