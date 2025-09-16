@@ -1,6 +1,6 @@
 # Lenovo ThinkPad T480 - OpenCore Configuation
 
-![T480](https://raw.githubusercontent.com/kutemeikito/kutemeikito/refs/heads/master/assets/Screenshot%202025-07-14%20at%2019.47.06.png)
+![T480](https://raw.githubusercontent.com/kutemeikito/kutemeikito/refs/heads/master/assets/Tahoe.png)
 
 
 # ⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️
@@ -47,10 +47,10 @@ Check the model of your WiFi & Bluetooth card. Intel cards should be compatible 
 <summary><strong>✅ What's working</strong></summary>
 </br>
  
-- [X] Intel WiFi & Bluetooth
+- [X] Intel Bluetooth
 - [X] Brightness / Volume Control
 - [X] Battery Information
-- [X] Audio (Audio Jack & Speaker)
+- [X] Audio (Bluetooth audio)
 - [X] USB Ports & Built-in Camera
 - [X] Graphics Acceleration
 - [X] Trackpoint / Touchpad
@@ -71,6 +71,8 @@ Check the model of your WiFi & Bluetooth card. Intel cards should be compatible 
 </br>
 
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
+- [ ] Intel Wifi (OCLP Doesn't work for now)
+- [ ] Audio Speaker
 - [ ] AirDrop & Continuity
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
 - [ ] Thunderbolt 3
