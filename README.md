@@ -1,6 +1,6 @@
 # Lenovo ThinkPad T480 - OpenCore Configuation
 
-![T480](https://raw.githubusercontent.com/kutemeikito/kutemeikito/refs/heads/master/assets/Screenshot%202025-07-14%20at%2019.47.06.png)
+![T480](https://raw.githubusercontent.com/kutemeikito/kutemeikito/refs/heads/master/assets/15.7.png)
 
 
 # ⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️
@@ -9,12 +9,6 @@ AND I WON'T TAKE RESPONSIBLE IF THIS BRANCH BREAK SOMETHING, OR EVEN WIPE YOUR H
 
 ## ⚠️ Disclaimer
 This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any harm you cause to your device. This guide is provided "as-is" and all steps taken are done at your own risk.
-
-> The ACPI patches and the style of this README are from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh).
-
-> Thanks MultimediaLucario for his works on hackintosh EFI [Lenovo-ThinkPad-T480](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480).
-
-> Thanks lolipuru for dual boot open-core issue [Thinkpad-T480-Opencore](https://github.com/lolipuru/Thinkpad-T480-Opencore).
 
 <details>
 <summary><strong>💻 My Hardware</strong></summary>
@@ -142,6 +136,13 @@ Press save and reboot (no need for setting the kext up since it's already presen
 Did you find any bugs or just have some questions? Feel free to provide your feedback using the Discussions tab.
 
 &nbsp;
+
+## Credits
+> The ACPI patches and the style of this README are from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh).
+
+> Thanks MultimediaLucario for his works on hackintosh EFI [Lenovo-ThinkPad-T480](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480).
+
+> Thanks lolipuru for dual boot open-core issue [Thinkpad-T480-Opencore](https://github.com/lolipuru/Thinkpad-T480-Opencore).
 
 ## 📜 License
 

@@ -368,7 +368,7 @@
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AAAWWQ==</data>
+                    <data>AADAhw==</data>
                     <key>complete-modeset</key>
                     <data>AQAAAA==</data>
                     <key>complete-modeset-framebuffers</key>
@@ -393,6 +393,8 @@
                     <data>AQAAAA==</data>
                     <key>framebuffer-stolenmem</key>
                     <data>AAAwAQ==</data>
+                    <key>framebuffer-unifiedmem</key>
+                    <data>AADw/w==</data>
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
                     <key>model</key>
@@ -630,7 +632,7 @@
                     <key>BundlePath</key>
                     <string>VoodooRMI.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.5 | VoodooRMI.kext</string>
+                    <string>V1.4.3 | VoodooRMI.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -648,7 +650,7 @@
                     <key>BundlePath</key>
                     <string>VoodooI2C.kext</string>
                     <key>Comment</key>
-                    <string>V2.9.1</string>
+                    <string>V2.9.1 | VoodooI2C.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -666,7 +668,7 @@
                     <key>BundlePath</key>
                     <string>VoodooI2CHID.kext</string>
                     <key>Comment</key>
-                    <string>V1</string>
+                    <string>V1 | VoodooI2CHID.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -810,7 +812,7 @@
                     <key>BundlePath</key>
                     <string>VoodooRMI.kext/Contents/PlugIns/VoodooInput.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.4 | VoodooInput.kext</string>
+                    <string>V1.1.7 | VoodooInput.kext</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -828,7 +830,7 @@
                     <key>BundlePath</key>
                     <string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.1</string>
+                    <string>V1.1 | VoodooGPIO.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -846,7 +848,7 @@
                     <key>BundlePath</key>
                     <string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
                     <key>Comment</key>
-                    <string>V1</string>
+                    <string>V1 | VoodooI2CServices.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1128,6 +1130,42 @@
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>GenericCardReaderFriend.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.4</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/GenericCardReaderFriend</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>Display-30e4-521.kext</string>
+                    <key>Comment</key>
+                    <string>V9.9.9</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
             </array>
             <key>Block</key>
             <array>
@@ -1396,7 +1434,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>rtcfx_exclude=80-AB keepsyms=1</string>
+                    <string>rtcfx_exclude=80-AB keepsyms=1 unfairgva=7</string>
                     <key>csr-active-config</key>
                     <data>AwoAAA==</data>
                     <key>prev-lang:kbd</key>
